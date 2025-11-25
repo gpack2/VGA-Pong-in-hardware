@@ -2,7 +2,7 @@
 
 This repository contains my implementation of a hardware Pong game on an FPGA, using a VGA-style
 timing generator that is converted to HDMI on the Boolean Board. The design is written in
-SystemVerilog and follows the Lab 4 “VGA Pong” specification from CMU 18-240.
+SystemVerilog and follows a hierarchical RTL design structure.
 
 The project demonstrates:
 - A **VGA timing generator** (`vga`) producing 800×600 @ 60 Hz style timing
